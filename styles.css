@@ -45,7 +45,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	gap: 1em;
-    min-width: 700px;
+    min-width: 800px;
 
 }
 
@@ -95,9 +95,15 @@ tr {
 }
 
 td {
+	flex:1;
 	display: flex;
 	gap: 0.5em;
 	align-items: center;
+	white-space: nowrap;
+}
+
+td:first-child{
+	min-width: 170px;
 }
 
 .icon-container {
